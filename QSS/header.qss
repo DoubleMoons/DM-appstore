@@ -1,0 +1,37 @@
+QFrame{
+    background: #ffffff;
+}
+
+QPushButton{
+    border: none;
+    font: bold;
+}
+
+QPushButton#loginButton {
+    font-size: 11px;
+    color: #ADAFB2;
+    border: 1px solid red;
+    padding-left: 0px;
+}
+
+QPushButton#loginButton:hover {
+    color: #DCDDE4;
+}
+
+QPushButton#closeButton, QPushButton#minButton, QPushButton#menuButton {
+    color: #828487;
+}
+
+QPushButton#closeButton::hover, QPushButton#minButton::hover {
+    color: #DCDDE4;
+}
+
+QToolButton{
+    border: none;
+}
+
+QLabel{
+    font: 75 12pt "Agency FB";
+    color: #000000;
+}
+
